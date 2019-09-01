@@ -1,5 +1,6 @@
 <?php 
 
+/*
 include'vendor/autoload.php';
 
 date_default_timezone_set('America/Lima');
@@ -38,6 +39,8 @@ $printer -> text($cab['total']."\n");
 $printer -> cut();
 $printer -> close();
 
+*/
 
+echo "hola";
 
  ?>

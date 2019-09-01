@@ -1,5 +1,6 @@
 {
     "require": {
-        "mike42/escpos-php": "^2.1"
+        "mike42/escpos-php": "^2.1",
+        "guzzlehttp/guzzle": "~6.0"
     }
 }

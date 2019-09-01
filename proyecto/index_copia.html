@@ -47,12 +47,13 @@
 $(document).on('click','.btn-print',function (){
 
 //CAB
+/*
 $.getJSON('source.php',{},function(data){
 
 cab  = data;
 
 });
-
+*/
 
 
 swal({
@@ -72,7 +73,7 @@ function(){
  
    url:"http://localhost/print/test.php",
    type:"POST",
-   data:{'cab':JSON.stringify(cab)},
+   data:{},
    beforeSend:function()
    {
   

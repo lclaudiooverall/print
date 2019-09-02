@@ -1,4 +1,3 @@
-<? header("Access-Control-Allow-Origin: *"); ?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -72,8 +71,11 @@ function(){
 
  $.ajax({
  
-   url:"http://localhost/print/test.php",
-   type:"POST",
+   url:"http://localhost:8000/print/test.php",
+   type:"GET",
+   contentType:"application/json",
+   crossDomain:TRUE,
+   dataType:"jsonp",
    data:{},
    beforeSend:function()
    {
